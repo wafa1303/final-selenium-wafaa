@@ -16,4 +16,10 @@ public class HomePage {
         closeCookiePopup.click();
     }
 
+    //open meilleurs vente
+    public void openMeilleuresVentes(){
+        WebElement openMeilleuresVentes= driver.findElement(By.cssSelector(""));
+        openMeilleuresVentes.click();
+    }
+
 }
