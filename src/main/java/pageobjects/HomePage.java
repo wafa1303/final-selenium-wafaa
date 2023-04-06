@@ -18,7 +18,7 @@ public class HomePage {
 
     //open meilleurs vente
     public void openMeilleuresVentes(){
-        WebElement openMeilleuresVentes= driver.findElement(By.cssSelector(""));
+        WebElement openMeilleuresVentes= driver.findElement(By.cssSelector("[data-csa-c-content-id=nav_cs_bestsellers]"));
         openMeilleuresVentes.click();
     }
 

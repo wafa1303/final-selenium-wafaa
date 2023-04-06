@@ -27,5 +27,8 @@ public class AmazonTest {
         //test cookies
         homePage.closeCookiePopup();
 
+        //test meilleures vente
+        homePage.openMeilleuresVentes();
+
     }
 }
