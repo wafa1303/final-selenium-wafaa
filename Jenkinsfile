@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                 bat "mvn test"
+                 bat "mvngit  test"
             }
         }
     }
